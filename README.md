@@ -17,7 +17,10 @@ Desarrollar una página web sencilla que demuestre el uso de propiedades básica
 ## Estructura del proyecto
 
 ```bash
-1er_css_def/
+2do_css_def/
 ├── index.html
 ├── styles.css
 └── README.md
+
+
+Github_Pages: https://chmood110.github.io/2do_css_def/
