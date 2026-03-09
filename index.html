@@ -1,23 +1,56 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Introducción a CSS</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Propiedades básicas de CSS</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Mi proyecto: Introducción a CSS</h1>
+  <header class="encabezado">
+    <h1>Propiedades básicas de CSS</h1>
+    <p class="subtitulo">
+      Ejemplo práctico usando color, fondo, fuentes, alineación, márgenes, bordes, padding y box-sizing.
+    </p>
   </header>
 
-  <main>
-    <p>Esta página es parte de la práctica para publicar en GitHub Pages.</p>
-    <button>Botón de prueba</button>
+  <main class="contenedor">
+    <section class="tarjeta">
+      <h2>1. Color y fondo</h2>
+      <p class="texto-color">
+        Este párrafo muestra cómo cambiar el color del texto y el fondo de un elemento usando CSS.
+      </p>
+    </section>
+
+    <section class="tarjeta">
+      <h2>2. Tamaño y tipo de fuente</h2>
+      <p class="texto-fuente">
+        Aquí se utiliza <strong>font-size</strong> para cambiar el tamaño del texto y <strong>font-family</strong> para modificar la tipografía.
+      </p>
+    </section>
+
+    <section class="tarjeta">
+      <h2>3. Alineación de texto</h2>
+      <p class="texto-centrado">
+        Este texto está centrado gracias a la propiedad <strong>text-align</strong>.
+      </p>
+    </section>
+
+    <section class="tarjeta caja-ejemplo">
+      <h2>4. Box Model</h2>
+      <p>
+        Esta caja tiene ancho definido, relleno interno, borde y margen externo para demostrar el modelo de caja.
+      </p>
+    </section>
+
+    <section class="tarjeta">
+      <h2>5. Botón con hover</h2>
+      <button class="boton">Pasa el cursor aquí</button>
+    </section>
   </main>
 
-  <footer>
-     <p>Actividad: Introducción a CSS </p>
+  <footer class="pie">
+    <p>CSS_actividad_2</p>
   </footer>
 </body>
 </html>
